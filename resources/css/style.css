@@ -81,3 +81,45 @@ nav {
     justify-content: space-between;
     border: 3px solid black;
 }
+
+/*STORE SECTION*/
+.store {
+    display: flex;
+    justify-content: center;
+    border: 3px solid aqua;
+}
+.items {
+    display: flex;
+    flex-direction: row;
+    height: 21rem;
+    width: 960px;
+    justify-content: space-between;
+    align-items: center;
+    border: 4px solid yellow;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 15rem;
+    width: 15rem;
+    border: 4px solid black;
+}
+.item img {
+    height: 9rem;
+    width: 9rem;
+    margin: 2rem;
+}
+.item span {
+    background-color: black;
+    width: 100%;
+    height: 2rem;
+    text-align: center;
+    padding-top: .5rem;
+    border: 2px solid green;
+}
+#glasses img {
+    height: 4rem;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
