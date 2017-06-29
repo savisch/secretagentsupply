@@ -123,3 +123,35 @@ nav {
     margin-top: 5rem;
     margin-bottom: 4rem;
 }
+
+/*INFO SECTION*/
+.biz-info {
+    display: flex;
+    justify-content: center;
+    height: 8rem;
+    width: 100%;
+    border: 3px solid red;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 960px;
+    border: 3px solid blue;
+}
+.location, .hours{
+    width: 35%;
+    height: 4rem;
+    background-color: black;
+}
+.info h4 {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.info span {
+    background-color: white;
+    color: black;
+    display: block;
+    padding-top: .25rem;
+}
