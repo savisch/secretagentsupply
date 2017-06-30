@@ -206,4 +206,27 @@ nav span2 {
     nav span2 {
         display: block;
     }
+    #glasses {
+        display: none;
+    }
+    .item {
+        width: 47%;
+    }
+    .item img {
+        height: 7rem;
+        width: 7rem;
+        margin: 3rem;
+    }
+    .item span {
+        font-size: .9rem;
+    }
+    .location, .hours {
+        height: 2.75rem;
+    }
+    .info h4, span {
+        font-size: .9rem;
+    }
+    .text-content {
+        font-size: .9rem;
+    }
 }
