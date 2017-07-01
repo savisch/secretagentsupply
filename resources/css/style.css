@@ -224,7 +224,7 @@ nav span2 {
         height: 2.75rem;
     }
     .info h4, span {
-        font-size: .9rem;
+        font-size: .85rem;
     }
     .text-content {
         font-size: .9rem;
@@ -248,5 +248,30 @@ nav span2 {
     .headline h1 {
         font-size: 1rem;
     }
+    #watch {
+        display: none;
+    }
+    .items {
+        justify-content: center;
+    }
+    .item {
+        width: 90%;
+    }
+    .biz-info {
+        height: 9rem;
+        margin-bottom: 4rem;
+    }
+    .info {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .location, .hours {
+        width: 90%;
+    }
+    .hours {
+        margin-top: 1rem;
+    }
+    .text-content {
+        justify-content: center;
     }
 }
