@@ -174,7 +174,7 @@ nav span2 {
     border: 3px solid white;
 }
 
-/*1024 MEDIA QUERY*/
+/*1024px MEDIA QUERY*/
 @media only screen and (max-width: 1024px) {
     .logo img {
         height: 1.25rem;
@@ -228,5 +228,25 @@ nav span2 {
     }
     .text-content {
         font-size: .9rem;
+    }
+}
+
+/*470px MEDIA QUERY*/
+@media only screen and (max-width: 470px) {
+    .banner {
+        height: 15rem;
+    }
+    .headline {
+        margin-top: 9rem;
+        height: 6rem;
+        width: 100%;
+    }
+    .headline h4 {
+        font-size: .77rem;
+        margin-top: 1.75rem;
+    }
+    .headline h1 {
+        font-size: 1rem;
+    }
     }
 }
