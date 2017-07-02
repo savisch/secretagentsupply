@@ -81,7 +81,7 @@ nav {
     justify-content: space-between;
     /*border: 3px solid black;*/
 }
-nav span2 {
+.truncatednav {
     display: none;
 }
 
@@ -203,7 +203,7 @@ nav span2 {
     nav {
         justify-content: center;
     }
-    nav span2 {
+    .truncatednav {
         display: block;
     }
     #glasses {
